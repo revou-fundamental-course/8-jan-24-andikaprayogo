@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #060aee;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Optional: Style for smaller and gray "Kalkulator Matematik" text */
+.container p {
+  color: #808080;
+  font-size: 18px;
+  margin: 5px 0 0 0;
+}

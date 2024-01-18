@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Katik Kalkulator Matematik</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Katik Kalkulator Matematik</h1>
+    </div>
+    <div class="main-content">
+      <p>Halo Selamat datang di Katik!</p>
+      <button onclick="tampilkanPersegi()">Persegi</button>
+      <button onclick="tampilkanPersegiPanjang()">Persegi Panjang</button>
+      <div id="persegi" style="display: none">
+        <h2>Persegi</h2>
+        <label for="sisi">Sisi:</label><br />
+        <input type="number" id="sisi" name="sisi" /><br />
+        <button onclick="hitungLuasPersegi()">Hitung Luas Persegi</button>
+        <button onclick="hitungKelilingPersegi()">
+          Hitung Keliling Persegi
+        </button>
+        <div id="resultPersegi"></div>
+      </div>
+      <div id="persegiPanjang" style="display: none">
+        <h2>Persegi Panjang</h2>
+        <label for="panjang">Panjang:</label><br />
+        <input type="number" id="panjang" name="panjang" /><br />
+        <label for="lebar">Lebar:</label><br />
+        <input type="number" id="lebar" name="lebar" /><br />
+        <button onclick="hitungLuasPersegiPanjang()">
+          Hitung Luas Persegi Panjang
+        </button>
+        <button onclick="hitungKelilingPersegiPanjang()">
+          Hitung Keliling Persegi Panjang
+        </button>
+        <div id="resultPersegiPanjang"></div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
